@@ -1,0 +1,94 @@
+------------------------------------------------------------------------
+Question 1:
+Output 
+1 2 3 4 5  
+------------------------------------------------------------------------
+Question 2:
+Output
+
+1
+
+case 2
+
+2
+
+case 4
+
+Reason: If you look at the assembler you will understand the case 
+statements are like goto statements 
+------------------------------------------------------------------------
+Question 3:
+Output 
+Hello
+------------------------------------------------------------------------
+Question 4:
+Output 
+
+30
+------------------------------------------------------------------------
+Question 5:
+Output 
+2048
+
+Reason:
+2<<=2  =>  2 * (2^2) =  2 * 4 = 8
+8<<=8  =>  8 * (2^8) =  8 * 256 = 2048
+------------------------------------------------------------------------
+Question 6:
+Output 
+
+40
+
+Reason:
+Assume 32 bit machine.
+Understanding of the memory allocation for structures and arrays is 
+required 
+------------------------------------------------------------------------
+Question 7:
+Output 
+0 10 200 3000 40000
+
+Reason:
+understanding of how union and structure differ in memory allocation
+is required
+------------------------------------------------------------------------
+Question 8:
+Output
+
+TEL
+
+Reason:
+#define x(x)	#x 
+Turn x into a string literal without expanding macro definitions
+however if invoked from  a macro, macro arguments are expanded
+------------------------------------------------------------------------
+Question 9:
+Output
+
+7
+------------------------------------------------------------------------
+Question 10:
+Output
+28
+
+Reason:
+General rule here is we cannot determine the size of bitfield in C
+According to C standards bitfields does not supported by 
+sizeof() operator. The answer can different based on the compiler used
+------------------------------------------------------------------------
+Question 11:
+Output
+HiHiHiHiHiHi
+------------------------------------------------------------------------
+Question 12:
+Output
+4
+
+Reason:
+a<c will be 1
+b && a<c => 2 && 1 => 1
+b <<= b&&a<c =>  b <<= 1  => 2 * (2 ^ 1) => 4
+
+------------------------------------------------------------------------
+
+
